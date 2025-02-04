@@ -5,9 +5,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 import yfinance as yf
 
-##Go to this website to download the data needed https://www.kaggle.com/code/selcukwashere/turkish-second-hand-automobile-market-analysis/input
-##import file to Google Colab and run program
-
 dataset_path = "/content/turkish_2ndhand_automobile_processed.csv"
 df = pd.read_csv(dataset_path)
 
@@ -26,6 +23,7 @@ df['il_ilce'] = cat_imputer4.fit_transform(df[['il_ilce']]).ravel()
 df['km'] = pd.to_numeric(df['km'], errors='coerce')
 num_imputer = SimpleImputer(strategy='median')
 df['km'] = num_imputer.fit_transform(df[['km']])
+
 
 yil_bottom = df['yil'].quantile(0.10)
 
@@ -117,5 +115,3 @@ print(f"Full comparison data has been saved to {output_file}")
 
 
 print('\n'+ "First 10 comparisons preview: " + '\n' + comparison_df.head(10).to_string(index=False))
-
-
