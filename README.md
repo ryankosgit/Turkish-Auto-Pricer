@@ -19,7 +19,7 @@ In ordinary to run this program, the user must download the original CSV file wi
 ```bash
 !pip install pandas
 ```
-Move the CSV file to Google Colab / your computer folder. Then, adjust _line 8_ in ```text main.py ``` to match where your CSV file is located.
+Move the CSV file to Google Colab / your computer folder. Then, adjust _line 8_ in ```main.py ``` to match where your CSV file is located.
 
 Once that is completed, simply run the program and watch the price predictions print in the terminal.
 
