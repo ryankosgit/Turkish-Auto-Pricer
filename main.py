@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 import yfinance as yf
 
-dataset_path = "/content/turkish_2ndhand_automobile_processed.csv"
+dataset_path = "/content/turkish_2ndhand_automobile_processed.csv" #user should change directory to match where file is
 df = pd.read_csv(dataset_path)
 
 cat_imputer1 = SimpleImputer(strategy='most_frequent')
