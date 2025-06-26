@@ -8,16 +8,16 @@ turkish_2ndhand_automobile_processed.csv   # data CSV file
 README.md                                  # README
 ```
 # How to Run
-In ordinary to run this program, the user must download the original CSV file with the data and the code file. The user might not have the libraries installed, so to install them run these commands first:
+In ordinary to run this program, the user must download the original CSV file and the ```main.py``` file. The user might not have the libraries installed on your computer / Google Colab, so to install them run these commands first:
 
 ```bash
-!pip install sklearn
+pip install sklearn
 ```
 ```bash
-!pip install numpy
+pip install numpy
 ```
 ```bash
-!pip install pandas
+pip install pandas
 ```
 Move the CSV file to Google Colab / your computer folder. Then, adjust _line 8_ in ```main.py ``` to match where your CSV file is located.
 
