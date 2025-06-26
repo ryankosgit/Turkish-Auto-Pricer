@@ -3,9 +3,9 @@
 This program reads the Kaggle dataset of secondhand car prices in Turkey and presents 2,000 price predictions with about an 87%+ accuracy.
 
 ```text
-main.py                      # Main file
-turkish_2ndhand_automobile_processed.csv # data CSV file
-README.md                    # README
+main.py                                    # Main file
+turkish_2ndhand_automobile_processed.csv   # data CSV file
+README.md                                  # README
 ```
 # How to Run
 In ordinary to run this program, the user must download the original CSV file with the data and the code file. The user might not have the libraries installed, so to install them run these commands first:
