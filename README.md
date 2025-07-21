@@ -21,7 +21,10 @@ pip install pandas
 ```
 Move the CSV file to Google Colab / your computer folder. Then, adjust _line 8_ in ```main.py ``` to match where your CSV file is located.
 
-Once that is completed, simply run the program and watch the price predictions print in the terminal.
+Then, run ```python main.py```
+
+# Results
+The first 10 results will appear in the terminal box, but to see the full results, check the ``comparison_output.txt`` file.
 
 # Link to Original Kaggle Dataset
 https://www.kaggle.com/code/selcukwashere/turkish-second-hand-automobile-market-analysis/
