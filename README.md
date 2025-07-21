@@ -27,7 +27,7 @@ Then, run ```python main.py```
 # Results
 The first line of results will be the Average Margin of Error.
 
-The next line will confirm that the comparison data of the price predictions has been saved to ``comparison_output.txt``.
+The next line will confirm that the comparison data has been saved to ``comparison_output.txt``.
 
 The following graph will show a preview of the first 10 comparisons, showing the car brand, model, year, KM, location, actual price (translated from Lira to USD), predicted price (translated from Lira to USD), and MoE.
 
