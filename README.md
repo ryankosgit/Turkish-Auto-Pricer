@@ -25,8 +25,10 @@ The user should also adjust line 110, ```output_file = "/content/comparison_outp
 Then, run ```python main.py```
 
 # Results
-The first line of results will be the Average Margin of Error
+The first line of results will be the Average Margin of Error.
+
 The next line will confirm that the comparison data of the price predictions has been saved to ``comparison_output.txt``.
+
 The following graph will show a preview of the first 10 comparisons, showing the car brand, model, year, KM, location, actual price (translated from Lira to USD), predicted price (translated from Lira to USD), and MoE.
 
 <img width="1054" height="263" alt="Screenshot 2025-07-21 at 3 06 42 PM" src="https://github.com/user-attachments/assets/9d619e22-51fa-4ff5-aa91-7c42f1df2f6b" />
