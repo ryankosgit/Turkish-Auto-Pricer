@@ -19,7 +19,8 @@ pip install numpy
 ```bash
 pip install pandas
 ```
-Move the CSV file to Google Colab / your computer folder. Then, adjust _line 8_ in ```main.py ``` to match where your CSV file is located.
+Move the CSV file to Google Colab / your computer folder. Then, change _line 8_ in ```main.py ``` to match where your CSV file is located.
+The user should also adjust line 110, ```output_file = "/content/comparison_output.txt"```, to adjust the location of where the results file is saved.
 
 Then, run ```python main.py```
 
