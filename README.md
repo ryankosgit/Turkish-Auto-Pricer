@@ -1,6 +1,6 @@
 # Turkish Auto Price Predictor
 
-This program reads the Kaggle dataset of secondhand car prices in Turkey and presents 2,000 price predictions with about an 87%+ accuracy.
+This program reads the Kaggle dataset of secondhand car prices in Turkey and presents price predictions with about an 90%+ accuracy.
 
 ```text
 Turkish.ipynb                              # Main file
